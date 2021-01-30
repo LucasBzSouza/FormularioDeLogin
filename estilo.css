@@ -45,12 +45,12 @@ body {
 .box a{
    border: 0;
    background: none;
-   display: flex;
+   display: block;
    margin: 10px auto;
    border: 2px solid  #2ecc71;
    padding: 14px 40px;
-   max-width: 40px;
-   min-width: 30px; 
+   max-width: 50px;
+   min-width: 40px; 
    color: white;
    border-radius: 24px;
    transition: 0.25s;
@@ -60,6 +60,7 @@ body {
    font-family: Bodoni MT, Bodoni 72, Didot, Didot LT STD, Garamond, Times New Roman, serif; 
    text-align: center;
    text-shadow: 2px 2px black;
+   background-color: black;
 }
 
 .box a:hover{
@@ -77,9 +78,10 @@ body {
    width: 200px;
    color: white;
    text-transform: capitalize;
-   border-radius: 24px;
    transition: 0.25s;
    text-shadow: 2px 2px black;
+   background-color: black;
+   border-radius: 24px;
 }
 
 .box input[type = "text"]:focus,.box input[type = "password"]:focus{
@@ -94,7 +96,6 @@ body {
    display: flex;
    margin: 20px auto;
    text-align: center; 
-   border: 2px solid  #2ecc71;
    padding: 14px 40px;
    outline: none;
    color: white;
@@ -102,10 +103,12 @@ body {
    transition: 0.25s;
    cursor: pointer;
    text-shadow: 2px 2px black;
+   background-color: black;
+   border: 2px solid  #2ecc71;
 }
 
 .box input[type = "submit"]:hover{
     background: #2ecc71;
-
+    
 }
  
