@@ -1,0 +1,92 @@
+<<<<<<< HEAD
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: linear-gradient(45deg, #8e2de2, #4a08c0);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.container {
+    background: white;
+    max-width: 350px;
+    min-height: 40vh;
+    padding: 2rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+ }
+
+div h1 {
+    font-weight: 600;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-self:  center;
+    
+}
+
+.campo input{
+    outline: none;
+    font-size: 0.9rem;
+    color: rgba(0,0,0,0.7);
+    margin: 4px;
+    height: 2rem;
+    border: 0.2rem solid black;
+    width: 90%;
+    padding: 10px;
+     
+    border-radius: 5px;
+    display: flex;
+}
+
+.botao {
+    margin-top: 1rem;
+    height: 30px; 
+    display: flex; 
+    background: none;
+    align-self: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1rem;
+     
+     
+   
+     
+}
+
+.botao a,  input[type="submit"] {
+    text-decoration: none;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    font-weight: 550;
+    background: linear-gradient(to left, #8e2de2, #4a08c0);
+    margin: 0;
+    padding: 10px;
+    transition: all 0.3s ease;
+    border-radius: 4px;
+}
+
+.botao a {
+    display: flex;
+    justify-items: : center;
+    align-items:  center;
+}
+    
+ 
+ 
