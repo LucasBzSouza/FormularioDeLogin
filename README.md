@@ -3,18 +3,18 @@ Sistema básico de cadastro e login feito com PHP.
 
 Mudanças recentes:
 
-adição do banco de dados;
+-adição do banco de dados;
 
-mudança de layout;
+-mudança de layout;
 
-adição do código php (mudando de apenas formularios para um sistema basico);
+-adição do código php (mudando de apenas formularios para um sistema basico);
 
-script de validação dos campos usando javascript.
+-script de validação dos campos usando javascript.
 
 Mudanças futuras:
 
-responsividade do layout;
+-responsividade do layout;
 
-pop-ups de aviso em caso de erros ou operações bem sucedidas (cadastro e login);
+-pop-ups de aviso em caso de erros ou operações bem sucedidas (cadastro e login);
 
-melhorias na validação dos campos.
+-melhorias na validação dos campos.
